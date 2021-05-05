@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1bf1e17fe0cee45bb67c28c722a031, type: 3}
+  m_Name: DefaultNoise
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  normalizeMode: 1
+  noiseScale: 35.23
+  octaves: 5
+  persistance: 0.496
+  lacunarity: 2.05
+  seed: -195
+  offset: {x: 232.26, y: -225.61}
+  useThermalErosion: 0
+  iterationsThermalErosion: 4
+  talusValue: 0.008
+  movingConstant: 0.373
+  useThermalErosionInverted: 0
+  iterationsThermalErosionInverted: 2
+  talusValueInverted: 0.118
+  useHydraulicErosion: 0
+  iterationsHydraulicErosion: 14013
+  hydSeed: 0
+  erosionRadius: 4
+  inertia: 0.05
+  sedimentCapacityFactor: 4
+  minSedimentCapacity: 0.01
+  erodeSpeed: 0.673
+  depositSpeed: 0.455
+  evaporateSpeed: 0.287
+  gravity: 13.53
+  maxDropletLifetime: 45
+  initialWaterVolume: 10.94
+  initialSpeed: 38.99
