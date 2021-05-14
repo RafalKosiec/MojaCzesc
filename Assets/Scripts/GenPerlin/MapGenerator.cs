@@ -14,7 +14,7 @@ public class MapGenerator : MonoBehaviour
 
     public Material terrainMaterial;
 
-    [Range(0,MeshGenerator.numberOfSupportedChunkSizes-1)]
+    [Range(0,MeshGenerator.numberOfSupportedChunkSizes-2)]
     public int chunkSizeIndex;
 
     [Range(0, MeshGenerator.numberOfSupportedFlatshadedChunkSizes - 1)]

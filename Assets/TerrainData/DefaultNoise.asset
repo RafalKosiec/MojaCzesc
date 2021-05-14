@@ -15,29 +15,29 @@ MonoBehaviour:
   autoUpdate: 1
   normalizeMode: 1
   noiseScale: 35.23
-  octaves: 5
+  octaves: 6
   persistance: 0.496
-  lacunarity: 2.05
-  seed: -195
+  lacunarity: 1.97
+  seed: -192
   offset: {x: 232.26, y: -225.61}
   useThermalErosion: 0
-  iterationsThermalErosion: 4
-  talusValue: 0.008
-  movingConstant: 0.373
-  useThermalErosionInverted: 0
-  iterationsThermalErosionInverted: 2
-  talusValueInverted: 0.118
+  iterationsThermalErosion: 2
+  talusValue: 0.015
+  movingConstant: 0.559
+  useThermalErosionInverted: 1
+  iterationsThermalErosionInverted: 11
+  talusValueInverted: 0.206
   useHydraulicErosion: 0
-  iterationsHydraulicErosion: 14013
+  iterationsHydraulicErosion: 53141
   hydSeed: 0
-  erosionRadius: 4
+  erosionRadius: 3
   inertia: 0.05
   sedimentCapacityFactor: 4
   minSedimentCapacity: 0.01
-  erodeSpeed: 0.673
-  depositSpeed: 0.455
-  evaporateSpeed: 0.287
-  gravity: 13.53
-  maxDropletLifetime: 45
-  initialWaterVolume: 10.94
-  initialSpeed: 38.99
+  erodeSpeed: 0.3
+  depositSpeed: 0.3
+  evaporateSpeed: 0.01
+  gravity: 4
+  maxDropletLifetime: 30
+  initialWaterVolume: 1
+  initialSpeed: 1

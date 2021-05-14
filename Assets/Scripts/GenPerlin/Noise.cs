@@ -153,14 +153,12 @@ public class Noise{
                         differences[2, 1] = noiseMap[x, y] - noiseMap[x, y + 1];
                         differences[2, 2] = noiseMap[x, y] - noiseMap[x + 1, y + 1];
 
-                        float sumOfHeightDifferencesGreaterThanTalus = 0;
-                        float dMax = 0;
+                        float dMax = float.MinValue;
                         int l = 0, k = 0;
                         for (int i = 0; i < 3; i++)
                         {
                             for (int j = 0; j < 3; j++)
                             {
-                                if (differences[i, j] > talusValueInverted) sumOfHeightDifferencesGreaterThanTalus += differences[i, j];
                                 if (differences[i, j] > dMax)
                                 {
                                     dMax = differences[i, j];
@@ -173,7 +171,7 @@ public class Noise{
                         {
                             float deltaH = dMax * 0.5f;
                             noiseMap[x, y] -= deltaH;
-                            noiseMap[x - 1 + l, y - 1 + k] += deltaH;
+                            noiseMap[x - 1 + k, y - 1 + l] += deltaH;
                         }
 
                     }
